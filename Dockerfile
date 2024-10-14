@@ -2,6 +2,7 @@ FROM node:20-alpine AS linux
 
 RUN apk --no-cache add \ 
         bash \
+        zsh \
         curl \
         less \
         groff \
